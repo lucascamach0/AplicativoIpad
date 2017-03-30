@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title> Page Title</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel ="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  <i id="menu" class="material-icons" onclick="openNav()">menu</i>
+    <nav id="top-nav">
+      <a href="#">Inicio</a>
+      <a href="#programa">Sobre o Programa</a>
+      <a href="#edicao_passada">Edição Passada</a> 
+      <a href="#requisitos">Requisitos</a>
+      <a href="#etapas">Estapas</a>
+      <a href="#inscreva">Inscreva-se</a> 
+    </nav>
+    <canvas id="c"></canvas>
+    <nav id="sidenav">
+      <i id="close-btn"class="material-icons" onclick="closeNav()">close</i>
+      <a href="#">Inicio</a>
+      <a href="#programa">Sobre o Programa</a>
+      <a href="#edicao_passada">Edição Passada</a> 
+      <a href="#requisitos">Requisitos</a>
+      <a href="#etapas">Estapas</a>
+      <a href="#inscreva">Inscreva-se</a> 
+    </nav>
+    <header>
+      <div id="logo-title">
+        <img src="http://i2.kym-cdn.com/entries/icons/original/000/012/982/post-19715-Brent-Rambo-gif-thumbs-up-imgu-L3yP.gif" id="start">
+        <img src="monitor.png" id="pc">
+        <h1>Programa de Estágio 2017</h1>
+      </div>
+      <ul id="cronogram" class="list">
+        <li>
+          <h4> Inscrições </h4>
+            <div class="date-circle">
+              <h6>20 SET</h6>
+            </div>
+        </li>
+        <li>
+            <div class="date-circle">
+              <h6>DEZ</h6>
+            </div>
+          <h4> Anúncio da Aprovação </h4>
+               
+        </li>
+        <li>
+          <h4> Ínicio do Programa </h4>
+            <div class="date-circle">
+              <h6>FEV</h6>
+            </div>
+        </li>
+        <span class="clear"></span>
+      </ul>
+
+    </header>
+    <section id = "programa" class="section">
+      <h1 class="title">O Programa</h1>
+      <p>InternStellar Journey é o programa de estágio que te convida para embarcar em uma viagem por um grande universo de inovação, onde a Nave Mãe CI&T é responsável por conduzir você a diversas constelações e galáxias tecnológicas.</p>
+      <p>Essa tripulação escolhida a dedo terá como missão desvendar o melhor jeito de se posicionar frente a desafios ainda desconhecidos presentes em nossos grandes projetos.</p>
+      <h3><b>O que queremos com o programa?</b></h3>
+      <p>Salvar o universo com grandes ideias!</p>
+      <h3><b>Quer desenvolver sua carreira em uma das melhores empresas para se trabalhar no Brasil?</b></h3>
+      <p>Venha começar sua história e desvendar galáxias tecnológicas ainda desconhecidas...</p>
+    </section>
+    
+    <section id = "edicao_passada" class="section">
+      <h1 class="title">Edições Anteriores</h1>
+      <p>Confira como foram as edições anteriores do nosso Programa de Estágio</p>
+       <ul id="gallery" class="list">
+        <li>
+          <img src="https://38.media.tumblr.com/794f789fe7a6375c7062721f206388d3/tumblr_mud4ladL7O1rmcgo1o1_400.gif"/>
+        </li>
+        <li>
+          <img src="http://i1.kym-cdn.com/photos/images/newsfeed/001/020/946/a40.gif"/>
+        </li>
+        <li>
+          <img src="http://i.imgur.com/iVHfwLc.gif"/>
+        </li>
+        <span class="clear"></span>
+      </ul>
+    </section>
+
+    <section id="requisitos" class="section">
+      <h1 class="title">Requisitos</h1>
+      <ul>
+        <li>Ter paixão por tecnologia.</li>
+        <li>Vontade de aprender e desenvolver-se como profissional.</li>
+        <li>Cursando: Ciências da Computação, Engenharia da Computação, Análise de Sistemas, Matemática, Estatística, Física e outros similares. Previsão de conclusão em dezembro de 2017 ou 2018.</li>
+        <li>O programa de estágio tem duração mínima de 12 meses.</li>
+        <li>Disponibilidade para cumprir 30 horas de estágio por semana e trabalhar em Campinas, São Paulo ou Belo Horizonte.</li>
+        <li>Inglês é um diferencial no seu alistamento.</li>
+        <span class="clear"></span>
+        <li>Curso Técnico com conclusão em dezembro de 2016, com a possibilidade de estagiar em 2017 e 2018.</li>       
+     </ul>
+    </section>
+
+    <section id = "etapas" class="section">
+      <h1 class = "title">Etapas</h1>
+      <ul class="list">
+        <li>
+          <img src="https://media.giphy.com/media/llKJGxQ1ESmac/giphy.gif"/>
+          <p>Inscrição</p>
+        </li>
+        <li>
+          <img src="https://media.giphy.com/media/bAplZhiLAsNnG/giphy.gif"/>
+          <p>Desafio Online</p>
+        </li>
+        <li>
+          <img src="https://media.giphy.com/media/119cVU19ICcAKc/giphy.gif"/>
+          <p>Hackathon</p>
+        </li>
+        
+      </ul>
+    </section>
+
+    <section id = "inscreva" class="section">
+      <form name="" id="form-inscreva">
+        <h1 class = "title">Inscreva-se</h1>
+        <input type="text" name="name" placeholder="Nome Completo"/><br />
+        <input type="email" name="email" placeholder="Email"/></br>
+        <input type="text" name="instituicao" placeholder="Instituição"/></br>
+        <input type="submit" id= "btn-enviar" name="Enviar"/>
+      </form>
+      <span class="clear"></span>
+    </section>
+    <footer>
+    	<img src="http://esq.h-cdn.co/assets/16/17/640x360/gallery-1462115295-obama-mic-drop.gif">
+    </footer>
+      <script>
+        var closeNav = function() {
+          document.getElementById('sidenav').style.display = "none";
+        }
+        var openNav = function() {
+          document.getElementById('sidenav').style.display = "block";
+        }
+        var c = document.getElementById("c");
+var ctx = c.getContext("2d");
+
+//making the canvas full screen
+c.height = window.innerHeight;
+c.width = window.innerWidth;
+
+//chinese characters - taken from the unicode charset
+var chinese = "L0LHUE";
+//converting the string into an array of single characters
+chinese = chinese.split("");
+
+var font_size = 10;
+var columns = c.width/font_size; //number of columns for the rain
+//an array of drops - one per column
+var drops = [];
+//x below is the x coordinate
+//1 = y co-ordinate of the drop(same for every drop initially)
+for(var x = 0; x < columns; x++)
+	drops[x] = 1; 
+
+//drawing the characters
+function draw()
+{
+	//Black BG for the canvas
+	//translucent BG to show trail
+	ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+	ctx.fillRect(0, 0, c.width, c.height);
+	
+	ctx.fillStyle = "#0F0"; //green text
+	ctx.font = font_size + "px arial";
+	//looping over drops
+	for(var i = 0; i < drops.length; i++)
+	{
+		//a random chinese character to print
+		var text = chinese[Math.floor(Math.random()*chinese.length)];
+		//x = i*font_size, y = value of drops[i]*font_size
+		ctx.fillText(text, i*font_size, drops[i]*font_size);
+		
+		//sending the drop back to the top randomly after it has crossed the screen
+		//adding a randomness to the reset to make the drops scattered on the Y axis
+		if(drops[i]*font_size > c.height && Math.random() > 0.975)
+			drops[i] = 0;
+		
+		//incrementing Y coordinate
+		drops[i]++;
+	}
+}
+
+setInterval(draw, 33);
+
+      </script>
+
+  </body>
+</html>

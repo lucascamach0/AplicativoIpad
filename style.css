@@ -1,0 +1,349 @@
+/*adding a black bg to the body to make things clearer*/
+canvas {
+  width:100%;
+  height:100%;
+  display: block;
+   z-index:-10;
+   position: fixed;
+}
+
+body {
+  background-color: #000000;
+  //background-color: yellow;
+  color : lime;
+  font-family:Roboto-Mono;
+  font-weight: 50;
+}
+#logo-title
+{
+ width:500px;
+ margin-left:auto;
+ margin-right:auto;
+ text-align:center;
+ color:white;
+ text-shadow:0 0 10px lime;
+}
+#start{
+  width:380px;
+  height:289px;
+  position: absolute;
+  margin:  0 auto;
+  padding: 65px 0px 0px 65px;
+  z-index: 2;
+}
+
+#pc{
+  width: 100%;
+  z-index:1;
+  position: relative;
+}
+
+  #cronogram {
+  width:930px;
+  margin:0 auto;
+  padding:0;
+  list-style:none;
+  position:relative;
+
+  }
+
+.list li {
+  width: 33%;
+  float: left;
+  text-align:center;
+}
+
+#cronogram li:nth-child(1)::after{
+  width: 218px;
+  content:"";
+  border:solid 2px;
+  position:absolute;
+  top:80px;
+  left: 197px;
+  transform:rotate(-15deg);
+  box-shadow: 1px 1px 10px lime;
+}
+
+#cronogram li:nth-child(2)::after{
+  width: 218px;
+  content:"";
+  border:solid 2px;
+  position:absolute;
+  top:80px;
+  right: 207px;
+  transform:rotate(15deg);
+  box-shadow: 1px 1px 10px lime;
+}
+
+.date-circle{
+  width: 70px;
+  height: 70px;
+  border: solid 3px lime;
+  box-shadow: 1px 1px 10px lime;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius:50%;
+  font-size 100px;
+}
+
+.date-circle h6{
+  margin: 0;
+  padding 0;
+  line-height: 70px;
+  font-size: 20px;
+  color:white;
+  text-shadow:0 0 10px lime;
+}
+.list h4{
+  color:white;
+  text-shadow:0 0 10px lime;
+}
+
+#programa {
+  width:930px;
+  margin:auto;
+  padding:100px 0;
+}
+
+.title{
+  font-size:40px;
+  text-align:center;
+  color:white;
+  text-shadow:0 0 10px lime;
+}
+
+#programa p {
+  font-size:15px;
+  text-align:justify;
+}
+
+#programa h3{
+  font-size:20px;
+  color:white;
+  text-shadow:0 0 10px lime;
+}
+
+#edicao_passada p {
+  font-size:20px;
+  text-align:center;
+}
+
+.clear{
+  clear:left;
+  display:block;
+}
+
+#edicao_passada {
+  width:930px;
+  margin:auto;
+  padding:100px 0;
+}
+#edicao_passada li img{
+  padding-:5%;
+}
+
+.list {
+  margin:0 auto;
+  padding:0;
+  list-style:none;
+  position:relative;
+}
+
+#gallery li img {
+ width:100%;
+ height:220px;
+ border:solid;
+ box-shadow:0 0 10px white;
+ transition:1s;
+
+}
+#gallery li img:hover{
+  width:400px;
+  height:400px;
+  position:relative;
+  z-index:9;
+  margin: 0 auto;
+}
+
+#requisitos{
+  width:930px
+  margin:auto;
+  padding:100px 0;
+}
+
+#requisitos ul li{
+  width: 45%;
+  float: left;
+}
+
+#requisitos ul li:nth-child(2n + 1){
+  padding-right: 5%;
+}
+
+#etapas{
+  width: 930px
+  margin:auto;
+  padding:100px 0;
+}
+
+#etapas li img {
+ width:200px;
+ height:200px;
+ border: solid 2px lime;
+ border-radius:100%;
+ box-shadow:0 0 10px white;
+}
+
+#etapas li p {
+ font-size:25px; 
+ color:white;
+ text-shadow:0 0 10px lime;
+ padding-bottom:10%;
+}
+
+.material-icons{
+  font-size: 50px;
+}
+
+.section {
+  padding-top:50px;
+  padding-bottom:50px;
+}
+#form-inscreva{
+  width: 350px;
+  margin: 0 auto;
+}
+
+#form-inscreva input[type=text],#form-inscreva input[type=email]{
+  width: 100%;
+  height: 30px;
+  margin: 0 0 15px 0;
+  font-size: 16px;
+  font-family: Roboto-Mono;
+  padding 1%;
+  box-shadow: 0 0 10px white;
+  background-color:black;
+  border: solid 2px lime;
+}
+
+#btn-enviar{
+  height: 30px;
+  margin: 0 0 15px 0;
+  font-size: 16px;
+  font-family: Roboto-Mono;
+  padding 1%;
+  width: 100%;
+  background-color: black;
+  color:lime;
+  border: solid 2px lime;
+  box-shadow: 0 0 10px white;
+  text-transform: uppercase;
+  text-align:center;
+  text-shadow: 0 0 5px lime;
+  transition: 0.5s ;
+}
+
+#btn-enviar:hover{
+  background-color: lime;
+  text-shadow: 0 0 5px white;
+  color:white;
+  cursor: pointer;
+}
+
+footer img {
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius:10%;
+  display:block;
+}
+
+#menu {
+  display: none;
+  position:fixed;
+  top:20px;
+  left:20px;
+  font-size:40px;
+}
+
+nav{
+  top: 0;
+  left:0;
+  position: fixed;
+  z-index:10;
+  width:100%;
+  background-color : black;
+  padding: 1%;
+  margin-bottom: 100px;
+  text-align: center;
+  color: lime;
+  box-shadow: 0px 5px 10px lime;
+}
+nav a{
+  padding: 0 20px;
+  color: lime;
+  text-decoration: none;
+  font-weight: 400;  
+}
+nav a:hover{
+  color:white;
+  text-shadow: 0px 0px 5px lime;
+}
+
+#sidenav{
+  display:none;
+  width:255px;
+  height: 100%;
+}
+
+#sidenav a {
+ display: none;
+ text-align: left;
+ padding: 10px;
+}
+
+header{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+#close-btn{
+  position:absolute;
+  right:0;
+  top:0;
+  padding:10px;
+  cursor:pointer;
+  font-size:25px;  
+}
+
+#top-nav{
+  display: block;
+}
+
+@media only screen and (max-width:780px) { 
+  #top-nav{
+    display: none;
+  }
+  #sidenav{
+    display: none;
+  }
+  #menu{
+    display: block;
+  }
+  #sidenav a{
+    display: block;
+  }
+}
+
+/*@media only screen and (min-width:780px) { 
+  #top-nav{
+    display: block;
+  }
+  #sidenav{
+    display: none;
+  }
+  #menu{
+    display: none;
+  }
+}*/
